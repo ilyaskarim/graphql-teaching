@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "skipLibCheck": true,
+    "allowJs": false,
+    "outDir": "src",
+    "rootDir": "src",
+    "lib": ["es6", "esnext.asynciterable"],
+    "types": []
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build"]
+}
